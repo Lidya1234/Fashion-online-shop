@@ -1,0 +1,69 @@
+$red: #d35266;
+$dark: #383838;
+$gray: #888888;
+$white: #ffffff;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.red {
+  color: $red;
+}
+
+.gray {
+  color: $gray;
+}
+
+.dark {
+  color: $dark;
+  background-color: $dark;
+}
+
+.white {
+  color: $white;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.navbar {
+  width: 100%;
+  a {
+    margin-right: 3vw;
+  }
+
+  img {
+    margin-right: 3vw;
+  }
+}
+
+.envelope {
+  margin-top: 5px;
+  i {
+    margin-right: 3vw;
+  }
+}
+.post-btn {
+  height: 5vh;
+
+  width: auto;
+  background-color: $red;
+  border: none;
+}
+.heading {
+  background-color: $dark;
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  right: 20%;
+}
