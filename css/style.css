@@ -54,13 +54,45 @@
 }
 
 .heading {
-  background-color: #383838;
-  position: relative;
+  background-color: #d35266;
 }
 
 .text {
-  position: absolute;
-  right: 20%;
+  padding-top: 5%;
+}
+.text h1 {
+  padding-left: 40%;
+}
+.text h6 {
+  padding-left: 32%;
+}
+.text form {
+  margin-top: 2%;
+  padding-left: 15%;
+  padding-bottom: 3%;
+}
+.text input {
+  height: 5vh;
+  width: 20vw;
+}
+.text button {
+  height: 5vh;
+  border: none;
+  width: 7vw;
+}
+
+.buttons {
+  font-size: 0;
+}
+.buttons button {
+  font-size: 1vw;
+  border-color: #ffffff;
+  background-color: #d35266;
+}
+
+.image {
+  height: 40vh;
+  width: 40vw;
 }
 
 /*# sourceMappingURL=style.css.map */
