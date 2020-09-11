@@ -143,7 +143,7 @@ main {
 
 .accessories {
   margin-top: 10vh;
-  border-bottom: 1px solid #888888;
+  border-bottom: 1px solid #d3d3d3;
 }
 
 .grid-items {
@@ -164,6 +164,21 @@ main {
 
 .price {
   justify-content: space-between;
+}
+
+footer {
+  margin: 2vh 5vw 2vh 6vw;
+  justify-content: space-evenly;
+}
+footer p {
+  width: 50%;
+}
+footer ul li {
+  text-decoration: none;
+}
+
+.categories h6 {
+  border-bottom: solid 1px #d35266;
 }
 
 @media screen and (min-width: 768px) {

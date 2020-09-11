@@ -174,7 +174,7 @@ height:6vh;
 .accessories
 {
   margin-top:10vh;
-  border-bottom:1px solid $gray;
+  border-bottom:1px solid #d3d3d3;
 }
 
 .grid-items
@@ -198,6 +198,27 @@ height:6vh;
 .price
 {
   justify-content:space-between;
+}
+
+footer
+{
+  margin:2vh 5vw 2vh 6vw;
+  justify-content: space-evenly;
+  p 
+  {width:50%;
+  }
+  ul li
+  {
+    text-decoration:none;
+  }
+}
+
+.categories
+{
+  h6
+  {
+    border-bottom:solid 1px $red;
+  }
 }
 
 @media screen and (min-width:768px)
