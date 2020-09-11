@@ -181,6 +181,10 @@ footer ul li {
   border-bottom: solid 1px #d35266;
 }
 
+.res2 {
+  justify-content: space-between;
+}
+
 @media screen and (min-width: 768px) {
   .section-2 {
     justify-content: space-between;

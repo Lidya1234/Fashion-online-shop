@@ -1,37 +1,134 @@
-<!doctype html>
-<html lang="en">
+
+  <!DOCTYPE html>
+  <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
- 
-    <title>Results page</title>
-
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-     <link href="css/style.css" rel="stylesheet">
   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <script
+    src="https://kit.fontawesome.com/16d2250538.js"
+    crossorigin="anonymous"
+  ></script>
+    <title>Search page</title>
   </head>
-  <body>
-    <nav class="navbar flex">
-        <img src="images/logo.png">
-       <div><a href="search.html"><i class="fas fa-home"></i>  HOME</a>   
-       <a href="#"><i class="fas fa-cart-arrow-down"></i>  COLLECTIONS</a>
-       <a href="#"><i class="fas fa-cart-arrow-down"></i>  PURCHASE LIST</a>
-       <button type="button">POST AD</button>
-    </div>
-       <div>
-        <i class="fas fa-envelope"></i>
-           <span>John doe</span>
-
-       </div>
-    </nav>
+    <body>
   <header>
-   
+      <nav class="navbar navbar-expand-md dark">
+          <img src="images/logo.png">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <i class="fa fa-bars white" aria-hidden="true"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a href="search.html" class="red nav-link"><i class="fas fa-home"></i>  HOME</a> 
+              </li>
+              <li class="nav-item">   <a href="#" class="gray nav-link"><i class="fas fa-cart-arrow-down "></i>  COLLECTIONS</a></li>
+              <li class="nav-item">  <a href="#" class="gray nav-link"><i class="fas fa-cart-arrow-down"></i>  PURCHASE LIST</a></li>
+              <li class="nav-item"> <button type="button" class="white font-weight-lighter post-btn" > POST AN AD </button></li>
+        
+          </ul>
+       </div>
+       <div class="white envelope d-none d-md-block float-right">
+          <i class="fas fa-envelope gray"></i>
+             <span>John doe</span>
+  
+         </div>
+      </nav>
+   <div class="heading bg-danger d-none d-md-block white">
+     <div class="text">
+      <h1>FASHION</h1>
+      <h6>Buying and selling couldn't be simpler than this</h6>
+      <form class="d-flex">
+        <select value="bags"><option>Bags</option></select> <input type="text" placeholder="Bags"><input type="text" placeholder="Kampala">
+        <button type="button" class="dark" ><span class="gray">Search</span></button>
+    </form>
+     </div>
+   </div>
   </header>
+  
+  <main>
+    <section class="section-1 d-none d-md-block">
+      <h3 class="gray">HOT ADDS</h3>
+      <div class=" hot-adds flex">
+      <img src="images/h-bag1.jpg" class="main-img img-fluid">
+      <div class="hotad flex">
+        <h4 class="red">
+          Lorem ipsum dolor sit amet.
+        </h4>
+      
+        <p class="gray">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat dolores eius pariatur, nesciunt impedit voluptatibus ipsum perferendis dicta ipsam quia.</p>
+          <span class="gray">By:Jhon Doe</span>
+          <span class="gray">Location:Sanfrancisco U.S </span>
+          
+        
+        <div class="buttons">
+          <button type="button" class="red" ><span class="white"> $450 </span></button>
+          <button type="button" class="red" ><span class="white"><i class="fas fa-cart-arrow-down"></i> Purchase Details</span></button>
+        </div>
+      </div>
+    </div>
+    </section>
+<section class="res2 flex">
+  <div class="small-side">
+    <div class="d-flex justify-content-between">
+    <div>
+<input type="checkbox"> <label>shoes</label>
+</div>
+<div>
+  <input type="checkbox"> <label>Accesories</label>
+  </div>
+  </div>
+  <div class="size">
+    <h6>Type</h6>
+  <div>
+    <input type="checkbox"> <label>shoes</label>
+    </div>
+    <div>
+      <input type="checkbox"> <label>shoes</label>
+      </div>
+      <div>
+        <input type="checkbox"> <label>shoes</label>
+        </div>
+      </div>
+      <div class="size">
+        <h6>Size</h6>
+      <div>
+        <input type="checkbox"> <label>shoes</label>
+        </div>
+        <div>
+          <input type="checkbox"> <label>shoes</label>
+          </div>
+          <div>
+            <input type="checkbox"> <label>shoes</label>
+            </div>
+          </div>
+          <div class="size">
+            <h6>Price Range</h6>
+          <div>
+            <input type="checkbox"> <label>shoes</label>
+            </div>
+            <div>
+              <input type="checkbox"> <label>shoes</label>
+              </div>
+              <div>
+                <input type="checkbox"> <label>shoes</label>
+                </div>
+              </div>
+</div>
+  <div class="large-side">
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum sapiente excepturi atque, in alias aspernatur!</p>
+  </div>
 
+</section>
+    </main>
 
-  <main></main>
   <footer></footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
