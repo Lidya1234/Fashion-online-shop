@@ -185,6 +185,45 @@ footer ul li {
   justify-content: space-between;
 }
 
+.large-side {
+  flex-direction: column;
+}
+.large-side p {
+  border-bottom: solid 1px #d3d3d3;
+  padding-bottom: 3vh;
+}
+
+.dtailed-info {
+  justify-content: space-between;
+}
+
+.info-img {
+  height: 22vh;
+  width: 22vw;
+}
+
+.information {
+  flex-direction: column;
+  padding-right: 3vw;
+  padding-left: 3vw;
+}
+
+.info-head {
+  justify-content: space-between;
+}
+
+.button {
+  font-size: 14px;
+  border-color: #ffffff;
+  background-color: #d35266;
+  width: auto;
+  height: 6vh;
+}
+
+.date {
+  justify-content: space-between;
+}
+
 @media screen and (min-width: 768px) {
   .section-2 {
     justify-content: space-between;

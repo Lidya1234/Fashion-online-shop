@@ -124,6 +124,7 @@ height:6vh;
   }
 }
 
+
 .section-1
 {
   margin:2vh 5vw 2vh 5vw;
@@ -227,6 +228,51 @@ footer
 {
   justify-content:space-between;
 }
+
+.large-side
+{ flex-direction:column;
+  p
+  {
+    border-bottom:solid 1px #d3d3d3;
+  padding-bottom:3vh;
+  }
+}
+
+.dtailed-info
+{
+  justify-content:space-between;
+}
+
+.info-img
+{
+  height:22vh;
+  width:22vw;
+}
+
+.information
+{
+  flex-direction:column;
+  padding-right:3vw;
+  padding-left: 3vw;
+}
+
+.info-head
+{
+  justify-content: space-between;
+}
+
+
+.button{
+  font-size:14px;
+  border-color: $white;
+  background-color:$red;
+  width:auto;
+  height:6vh;
+    }
+  .date
+  {
+    justify-content: space-between;
+  }
 
 @media screen and (min-width:768px)
 {
