@@ -221,21 +221,35 @@ footer
     border-bottom:solid 1px $red;
   }
 }
-
-
-
+/*results */
 .res2
 {
-  justify-content:space-between;
+  margin-right:3vw;
+}
+.small-side
+{ padding-left: 3vw;
+  flex:25%;
 }
 
+.large-side{
+  flex:75%;
+}
 .large-side
 { flex-direction:column;
-  p
-  {
-    border-bottom:solid 1px #d3d3d3;
-  padding-bottom:3vh;
-  }
+
+}
+
+.info-border
+{
+  border-bottom:solid 1px #d3d3d3;
+  padding-bottom:2vh;
+}
+
+.info-border-right
+{
+  border-right:solid 1px #d3d3d3;
+  padding-right:2vh;
+
 }
 
 .dtailed-info
