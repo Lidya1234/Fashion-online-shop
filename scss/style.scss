@@ -9,62 +9,77 @@ $white: #fff;
   padding: 0;
 }
 
-.img {
+.img 
+{
   object-fit: cover;
 }
 
-.navbar {
+.navbar 
+{
   width: 100%;
   position: fixed;
   z-index: 1;
   top: 0;
+
   a 
   {
     margin-right: 3vw;
   }
 
-  img {
+  img 
+  {
     margin-right: 3vw;
   }
 }
 
-main {
+main
+ {
   background-color: #f9f9f9;
 }
 
-.red {
+.red 
+{
   color: $red;
 }
 
-.gray {
+.gray 
+{
   color: $gray;
 }
 
-.dark {
+.dark 
+{
   color: $dark;
   background-color: $dark;
 }
 
-.white {
+.white 
+{
   color: $white;
 }
 
-.flex {
+.flex 
+{
   display: flex;
 }
 
-.grid {
+.grid
+ {
   display: grid;
 }
 
-.envelope {
+.envelope 
+{
   margin-top: 5px;
+
   i
    {
     margin-right: 3vw;
   }
 }
-.post-btn {
+
+.post-btn
+ {
   height: 5vh;
 
   width: auto;
@@ -72,35 +87,48 @@ main {
   border: none;
 }
 
-.heading {
+.heading 
+{
   background-color: $red;
 }
 
-.text {
+.text 
+{
   padding-top: 5%;
-  h1 {
+  
+  h1 
+  {
     padding-left: 40%;
   }
 
-  h6 {
+  h6 
+  {
     padding-left: 32%;
   }
-  form {
+
+  form
+   {
     margin-top: 2%;
     padding-left: 15%;
     padding-bottom: 3%;
     font-size: 0;
   }
-  input {
+
+  input
+   {
     height: 8vh;
     width: 20vw;
     color: $dark;
   }
-  select {
+
+  select 
+  {
     width: 14vw;
     height: 8vh;
   }
-  button {
+
+  button
+   {
     height: 8vh;
     border: none;
     width: 7vw;
@@ -108,10 +136,12 @@ main {
     padding-top: 1vh;
   }
 }
-.buttons {
+.buttons 
+{
   margin-top: 1vh;
   font-size: 0;
-  button {
+  button
+  {
     font-size: 14px;
     border-color: $white;
     background-color: $red;
@@ -120,45 +150,54 @@ main {
   }
 }
 
-.section-1 {
+.section-1
+ {
   margin: 2vh 5vw 2vh 5vw;
-  h3 {
+  h3 
+  {
     padding-left: 8vw;
   }
 }
 
-.hotad {
+.hotad
+ {
   flex-direction: column;
 }
 
-.main-img {
+.main-img
+ {
   height: 300px;
   width: 400px;
   margin-right: 5%;
 }
 
-.section-2 {
+.section-2 
+{
   justify-content: space-between;
   flex-direction: column;
   margin-left: 3vw;
   margin-right: 2vw;
-  div {
+  div 
+  {
     grid-template-columns: repeat(2, minmax(180px, 1fr));
     grid-gap: 2%;
   }
-  h6 {
+  h6 
+  {
     font-size: 30px;
     margin-bottom: 5%;
     padding-left: 40%;
   }
 }
 
-.accessories {
+.accessories
+ {
   margin-top: 10vh;
   border-bottom: 1px solid #d3d3d3;
 }
 
-.grid-items {
+.grid-items 
+{
   flex-direction: column;
   background-color: #fff;
   padding-left: 1%;
@@ -168,62 +207,75 @@ main {
   margin-bottom: 10vh;
 }
 
-.grid-item-des {
+.grid-item-des
+ {
   padding-left: 2vw;
   padding-right: 2vw;
   flex-direction: column;
 }
 
-.price {
+.price
+ {
   justify-content: space-between;
 }
 
-.search-ftr {
+.search-ftr
+ {
   display: none;
 }
 /*results */
-.res2 {
+.res2 
+{
   margin-top: 6%;
   margin-right: 3vw;
 }
 
-.small-side {
+.small-side 
+{
   display: none;
 }
 
-.large-side {
+.large-side
+ {
   flex: 75%;
 }
 
-.large-side {
+.large-side
+ {
   flex-direction: column;
 }
 
-.info-border {
+.info-border 
+{
   border-bottom: solid 1px #d3d3d3;
   padding-bottom: 2vh;
 }
 
-.dtailed-info {
+.dtailed-info 
+{
   justify-content: space-between;
 }
 
-.info-img {
+.info-img 
+{
   height: 22vh;
   width: 22vw;
 }
 
-.information {
+.information 
+{
   flex-direction: column;
   padding-right: 3vw;
   padding-left: 3vw;
 }
 
-.info-head {
+.info-head 
+{
   justify-content: space-between;
 }
 
-.button {
+.button 
+{
   font-size: 14px;
   border-color: $white;
   background-color: $red;
@@ -231,13 +283,16 @@ main {
   height: 6vh;
 }
 
-.date {
+.date 
+{
   justify-content: space-between;
 }
 
-.pagination {
+.pagination 
+{
   padding-left: 35%;
-  a {
+  a 
+  {
     color: black;
     padding-left: 35%;
     padding: 1vh 1vw;
@@ -245,65 +300,81 @@ main {
     transition: background-color .3s;
   }
 
-  a.active {
+  a.active 
+  {
     background-color: $red;
     color: white;
   }
 }
 
-.upper-ftr {
+.upper-ftr
+ {
   display: none;
 }
 
-.lower-ftr {
+.lower-ftr
+ {
   flex-direction: column;
-  p {
+  p
+   {
     padding-left: 20%;
   }
-  div {
+  div
+   {
     padding-left: 43%;
   }
 }
 
-.navigation {
-  h6 {
+.navigation
+ {
+  h6
+   {
     border-bottom: solid 1px $red;
   }
 }
 
-.l-ftr-links {
-  li {
+.l-ftr-links 
+{
+  li 
+  {
     list-style: none;
   }
-  a {
+  a 
+  {
     color: $dark;
     text-decoration: none;
   }
 }
 
-.res-ftr {
+.res-ftr 
+{
   margin-top: 3vh;
   border-top: solid 1px #d3d3d3;
   padding-right: 3vw;
   padding-left: 3vw;
 }
 
-.crgt {
+.crgt 
+{
   padding-left: 3vw;
   border-top: solid 1px #d3d3d3;
 }
 
-.section-2 {
+.section-2 
+{
   position: relative;
 }
 
-.aside {
+.aside 
+{
   display: none;
 }
 
-.ftr-form {
+.ftr-form
+ {
   padding-top: 5vh;
-  button {
+  button
+   {
     width: 5vw;
     height: 4vh;
     border: none;
@@ -313,40 +384,49 @@ main {
 }
 
 @media screen and (min-width: 768px) {
-  .section-2 {
+  .section-2 
+  {
     justify-content: space-between;
     flex-direction: column;
-    div {
+    div 
+    {
       grid-template-columns: repeat(4, minmax(180px, 1fr));
     }
   }
 
-  .lower-ftr {
+  .lower-ftr
+   {
     flex-direction: row;
     justify-content: space-between;
-    p {
+    p 
+    {
       padding-left: 0;
     }
-    div {
+    div 
+    {
       padding-left: 0;
     }
   }
 
-  .search-ftr {
+  .search-ftr 
+  {
     display: block;
     display: flex;
     margin: 2vh 5vw 2vh 6vw;
 
-    p {
+    p 
+    {
       width: 50%;
     }
   }
 
-  .ftr-right {
+  .ftr-right 
+  {
     flex: 40%;
   }
 
-  .ftr-right h6 {
+  .ftr-right h6
+   {
     padding-bottom: 2vh;
     border-bottom: solid 1px $red;
   }
@@ -358,7 +438,8 @@ main {
   .categories {
     justify-content: space-evenly;
 
-    li {
+    li
+    {
       list-style: none;
       text-decoration: none;
     }
@@ -374,7 +455,8 @@ main {
     background-color: white;
     padding-right: 4%;
     box-shadow: 0 0 20px black;
-    h6 {
+    h6 
+    {
       font-size: 20px;
     }
   }
@@ -383,7 +465,8 @@ main {
     display: block;
     padding-left: 3vw;
     flex: 25%;
-    h6 {
+    h6
+     {
       font-size: 20px;
     }
   }
