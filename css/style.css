@@ -14,9 +14,11 @@
   z-index: 1;
   top: 0;
 }
+
 .navbar a {
   margin-right: 3vw;
 }
+
 .navbar img {
   margin-right: 3vw;
 }
@@ -53,6 +55,7 @@ main {
 .envelope {
   margin-top: 5px;
 }
+
 .envelope i {
   margin-right: 3vw;
 }
@@ -71,27 +74,33 @@ main {
 .text {
   padding-top: 5%;
 }
+
 .text h1 {
   padding-left: 40%;
 }
+
 .text h6 {
   padding-left: 32%;
 }
+
 .text form {
   margin-top: 2%;
   padding-left: 15%;
   padding-bottom: 3%;
   font-size: 0;
 }
+
 .text input {
   height: 8vh;
   width: 20vw;
   color: #383838;
 }
+
 .text select {
   width: 14vw;
   height: 8vh;
 }
+
 .text button {
   height: 8vh;
   border: none;
@@ -104,6 +113,7 @@ main {
   margin-top: 1vh;
   font-size: 0;
 }
+
 .buttons button {
   font-size: 14px;
   border-color: #fff;
@@ -115,6 +125,7 @@ main {
 .section-1 {
   margin: 2vh 5vw 2vh 5vw;
 }
+
 .section-1 h3 {
   padding-left: 8vw;
 }
@@ -136,10 +147,12 @@ main {
   margin-right: 2vw;
   position: relative;
 }
+
 .section-2 div {
   grid-template-columns: repeat(2, minmax(180px, 1fr));
   grid-gap: 2%;
 }
+
 .section-2 h6 {
   font-size: 30px;
   margin-bottom: 5%;
@@ -228,6 +241,7 @@ main {
 .pagination {
   padding-left: 35%;
 }
+
 .pagination a {
   color: black;
   padding-left: 35%;
@@ -236,6 +250,7 @@ main {
   text-decoration: none;
   transition: background-color 0.3s;
 }
+
 .pagination a.active {
   background-color: #d35266;
   color: white;
@@ -248,9 +263,11 @@ main {
 .lower-ftr {
   flex-direction: column;
 }
+
 .lower-ftr p {
   padding-left: 20%;
 }
+
 .lower-ftr div {
   padding-left: 43%;
 }
@@ -262,6 +279,7 @@ main {
 .l-ftr-links li {
   list-style: none;
 }
+
 .l-ftr-links a {
   color: #383838;
   text-decoration: none;
@@ -286,6 +304,7 @@ main {
 .ftr-form {
   padding-top: 5vh;
 }
+
 .ftr-form button {
   width: 5vw;
   height: 4vh;
@@ -299,6 +318,7 @@ main {
     justify-content: space-between;
     flex-direction: column;
   }
+
   .section-2 div {
     grid-template-columns: repeat(4, minmax(180px, 1fr));
   }
@@ -307,9 +327,11 @@ main {
     flex-direction: row;
     justify-content: space-between;
   }
+
   .lower-ftr p {
     padding-left: 0;
   }
+
   .lower-ftr div {
     padding-left: 0;
   }
@@ -319,6 +341,7 @@ main {
     display: flex;
     margin: 2vh 5vw 2vh 6vw;
   }
+
   .search-ftr p {
     width: 50%;
   }
@@ -326,6 +349,7 @@ main {
   .ftr-right {
     flex: 40%;
   }
+
   .ftr-right h6 {
     padding-bottom: 2vh;
     border-bottom: solid 1px #d35266;
@@ -338,6 +362,7 @@ main {
   .categories {
     justify-content: space-evenly;
   }
+
   .categories li {
     list-style: none;
     text-decoration: none;
@@ -354,6 +379,7 @@ main {
     padding-right: 4%;
     box-shadow: 0 0 20px black;
   }
+
   .aside h6 {
     font-size: 20px;
   }
@@ -363,6 +389,7 @@ main {
     padding-left: 3vw;
     flex: 25%;
   }
+
   .small-side h6 {
     font-size: 20px;
   }
