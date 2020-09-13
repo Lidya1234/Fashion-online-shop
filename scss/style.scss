@@ -177,6 +177,7 @@ main
   flex-direction: column;
   margin-left: 3vw;
   margin-right: 2vw;
+  position:relative;
   div 
   {
     grid-template-columns: repeat(2, minmax(180px, 1fr));
@@ -339,39 +340,31 @@ main
   {
     list-style: none;
   }
-  a 
-  {
+  a {
     color: $dark;
     text-decoration: none;
   }
 }
 
-.res-ftr 
-{
+.res-ftr {
   margin-top: 3vh;
   border-top: solid 1px #d3d3d3;
   padding-right: 3vw;
   padding-left: 3vw;
 }
 
-.crgt 
-{
+.crgt {
   padding-left: 3vw;
   border-top: solid 1px #d3d3d3;
 }
 
-.section-2 
-{
-  position: relative;
-}
-
-.aside 
-{
+.aside {
   display: none;
 }
 
 .ftr-form {
   padding-top: 5vh;
+  
   button {
     width: 5vw;
     height: 4vh;
@@ -385,7 +378,6 @@ main
   .section-2 {
     justify-content: space-between;
     flex-direction: column;
-    
     div {
       grid-template-columns: repeat(4, minmax(180px, 1fr));
     }
@@ -418,17 +410,17 @@ main
     flex: 40%;
 
     h6 {
-    padding-bottom: 2vh;
-    border-bottom: solid 1px $red;
+      padding-bottom: 2vh;
+      border-bottom: solid 1px $red;
   }
-}
+ }
 
   .ftr-left {
     flex: 60%;
   }
 
   .categories {
-  justify-content: space-evenly;
+    justify-content: space-evenly;
 
     li {
       list-style: none;

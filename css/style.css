@@ -134,6 +134,7 @@ main {
   flex-direction: column;
   margin-left: 3vw;
   margin-right: 2vw;
+  position: relative;
 }
 .section-2 div {
   grid-template-columns: repeat(2, minmax(180px, 1fr));
@@ -279,10 +280,6 @@ main {
 .crgt {
   padding-left: 3vw;
   border-top: solid 1px #d3d3d3;
-}
-
-.section-2 {
-  position: relative;
 }
 
 .aside {
