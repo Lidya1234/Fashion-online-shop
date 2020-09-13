@@ -332,7 +332,6 @@ main {
   .ftr-right {
     flex: 40%;
   }
-
   .ftr-right h6 {
     padding-bottom: 2vh;
     border-bottom: solid 1px #d35266;

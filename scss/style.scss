@@ -410,27 +410,24 @@ main
     }
   }
 
-  .search-ftr 
-   {
+  .search-ftr {
     display: block;
     display: flex;
     margin: 2vh 5vw 2vh 6vw;
 
-    p 
-     {
+    p {
       width: 50%;
     }
   }
 
-  .ftr-right{
+  .ftr-right {
     flex: 40%;
-  }
 
-  .ftr-right
-     h6 {
+    h6 {
     padding-bottom: 2vh;
     border-bottom: solid 1px $red;
   }
+}
 
   .ftr-left {
     flex: 60%;
@@ -456,7 +453,7 @@ main
     padding-right: 4%;
     box-shadow: 0 0 20px black;
 
-      h6 {
+    h6 {
       font-size: 20px;
     }
   }
