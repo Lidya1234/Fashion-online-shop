@@ -187,9 +187,6 @@ main {
 
 .large-side {
   flex: 75%;
-}
-
-.large-side {
   flex-direction: column;
 }
 
@@ -235,7 +232,8 @@ main {
 .pagination a {
   color: black;
   padding-left: 35%;
-  padding: 1vh 1vw;
+  padding-top: 1vh;
+  padding-right: 1vw;
   text-decoration: none;
   transition: background-color 0.3s;
 }

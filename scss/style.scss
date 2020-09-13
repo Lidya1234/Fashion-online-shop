@@ -113,6 +113,7 @@ main {
     padding-top: 1vh;
   }
 }
+
 .buttons {
   margin-top: 1vh;
   font-size: 0;
@@ -149,12 +150,13 @@ main {
   flex-direction: column;
   margin-left: 3vw;
   margin-right: 2vw;
-  position:relative;
+  position: relative;
 
   div {
     grid-template-columns: repeat(2, minmax(180px, 1fr));
     grid-gap: 2%;
   }
+
   h6 {
     font-size: 30px;
     margin-bottom: 5%;
@@ -190,7 +192,9 @@ main {
 .search-ftr {
   display: none;
 }
+
 /*results */
+
 .res2 {
   margin-top: 6%;
   margin-right: 3vw;
@@ -202,9 +206,6 @@ main {
 
 .large-side {
   flex: 75%;
-}
-
-.large-side {
   flex-direction: column;
 }
 
@@ -244,16 +245,16 @@ main {
   justify-content: space-between;
 }
 
-.pagination 
-{
+.pagination {
   padding-left: 35%;
 
   a {
     color: black;
     padding-left: 35%;
-    padding: 1vh 1vw;
+    padding-top: 1vh;
+    padding-right: 1vw;
     text-decoration: none;
-    transition: background-color .3s;
+    transition: background-color 0.3s;
   }
 
   a.active {
@@ -272,6 +273,7 @@ main {
   p {
     padding-left: 20%;
   }
+
   div {
     padding-left: 43%;
   }
@@ -313,7 +315,7 @@ main {
 .ftr-form {
   padding-top: 5vh;
 
-    button {
+  button {
     width: 5vw;
     height: 4vh;
     border: none;
