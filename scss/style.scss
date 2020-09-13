@@ -167,8 +167,8 @@ height:6vh;
   h6
   {
     margin-bottom:5%;
-    padding-left:45%;
-    font-size:3vw;
+    padding-left:30%;
+    
   }
 }
 
@@ -348,6 +348,20 @@ a{
 .crgt
 { padding-left:3vw;
   border-top:solid 1px  #d3d3d3;
+}
+
+.section-2{
+  position:relative;
+}
+.aside{
+  position:absolute;
+  left:0;
+  bottom:10%;
+  padding-left:10%;
+  background-color: white;
+  padding-right:10%;
+ 
+  box-shadow:0 0 20px black;
 }
 
 @media screen and (min-width:768px)
