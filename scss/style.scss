@@ -287,7 +287,14 @@ height:6vh;
 }
 .lower-ftr
 { flex-direction:column;
-
+ p
+ {
+   padding-left:20%;
+ }
+ div
+ {
+   padding-left:43%;
+ }
 }
 
 
@@ -354,6 +361,14 @@ a{
 .lower-ftr{
   flex-direction: row;
   justify-content:space-between;
+  p
+  {
+    padding-left:0;
+  }
+  div
+  {
+    padding-left:0;
+  }
 }
 
 .search-ftr
