@@ -18,6 +18,14 @@ $white: #fff;
   position: fixed;
   z-index: 1;
   top: 0;
+  a 
+  {
+    margin-right: 3vw;
+  }
+
+  img {
+    margin-right: 3vw;
+  }
 }
 
 main {
@@ -49,20 +57,10 @@ main {
   display: grid;
 }
 
-.navbar {
-  width: 100%;
-  a {
-    margin-right: 3vw;
-  }
-
-  img {
-    margin-right: 3vw;
-  }
-}
-
 .envelope {
   margin-top: 5px;
-  i {
+  i
+   {
     margin-right: 3vw;
   }
 }
