@@ -8,10 +8,9 @@
   object-fit: cover;
 }
 
-.image
-{
-  height:350px;
-  width:330px;
+.image {
+  height: 350px;
+  width: 330px;
 }
 
 .navbar {
@@ -67,7 +66,7 @@ main {
 }
 
 .post-btn {
-  padding-top:1px;
+  padding-top: 1px;
   height: 5vh;
   width: auto;
   background-color: #d35266;
