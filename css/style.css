@@ -125,6 +125,7 @@ main {
 .section-1 {
   margin: 2vh 5vw 2vh 5vw;
 }
+
 .section-1 h3 {
   padding-left: 8vw;
 }
@@ -151,6 +152,7 @@ main {
   grid-template-columns: repeat(2, minmax(180px, 1fr));
   grid-gap: 2%;
 }
+
 .section-2 h6 {
   font-size: 30px;
   margin-bottom: 5%;
@@ -387,7 +389,7 @@ main {
     padding-left: 3vw;
     flex: 25%;
   }
-  
+
   .small-side h6 {
     font-size: 20px;
   }
