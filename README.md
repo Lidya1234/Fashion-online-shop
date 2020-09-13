@@ -4,7 +4,7 @@ capstone project of HTML and css
 
 <img src="images/screenshot.jpg" alt="Fashion-online shop">
 
-This is a project to demonstrate the existing knowledge of HTML and CSS. It is a solo project which recreates a responsive website of online fashion shop.
+This is a project to demonstrate the existing knowledge of HTML and CSS. It is a solo project which recreates a responsive website of Fashion online shop.
 
 ## Built With
  HTML5
