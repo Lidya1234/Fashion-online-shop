@@ -422,14 +422,11 @@ main
     }
   }
 
-  .ftr-right
-
-   {
+  .ftr-right{
     flex: 40%;
   }
 
-  .ftr-right h6
-    {
+  .ftr-right h6{
     padding-bottom: 2vh;
     border-bottom: solid 1px $red;
   }
@@ -441,15 +438,13 @@ main
   .categories {
     justify-content: space-evenly;
 
-    li
-     {
+    li{
       list-style: none;
       text-decoration: none;
     }
   }
 
-  .aside 
-  {
+  .aside {
     display: block;
     position: absolute;
     left: 0;
@@ -460,20 +455,18 @@ main
     padding-right: 4%;
     box-shadow: 0 0 20px black;
 
-   h6 
-     {
+   h6 {
       font-size: 20px;
     }
   }
 
-  .small-side 
-  {
+  .small-side {
     display: block;
     padding-left: 3vw;
     flex: 25%;
 
     h6
-      {
+       {
       font-size: 20px;
     }
   }
