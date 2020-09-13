@@ -370,11 +370,9 @@ main
   display: none;
 }
 
-.ftr-form
- {
+.ftr-form {
   padding-top: 5vh;
-  button
-   {
+  button {
     width: 5vw;
     height: 4vh;
     border: none;
@@ -388,24 +386,20 @@ main
     justify-content: space-between;
     flex-direction: column;
     
-    div 
-     {
+    div {
       grid-template-columns: repeat(4, minmax(180px, 1fr));
     }
   }
 
-  .lower-ftr
-    {
+  .lower-ftr {
     flex-direction: row;
     justify-content: space-between;
 
-    p 
-     {
+    p {
       padding-left: 0;
     }
 
-    div 
-     {
+    div {
       padding-left: 0;
     }
   }
@@ -434,7 +428,7 @@ main
   }
 
   .categories {
-    justify-content: space-evenly;
+  justify-content: space-evenly;
 
     li {
       list-style: none;
