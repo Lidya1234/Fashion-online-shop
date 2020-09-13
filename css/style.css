@@ -71,6 +71,9 @@ main {
 .text {
   padding-top: 5%;
 }
+.text h1 {
+  padding-left: 40%;
+}
 .text h6 {
   padding-left: 32%;
 }
