@@ -10,14 +10,6 @@ $white: #ffffff;
 
 }
 
-
-body .carousel-indicators li{
-  background-color:red;
-}
-body .carousel-control-prev-icon,
-body .carousel-control-next-icon{
-  background-color:red;
-}
 .img
 {
   object-fit: cover;
@@ -227,6 +219,7 @@ height:6vh;
 { margin-top:6%;
   margin-right:3vw;
 }
+
 .small-side
 { display:none
 }
@@ -234,6 +227,7 @@ height:6vh;
 .large-side{
   flex:75%;
 }
+
 .large-side
 { flex-direction:column;
 
@@ -244,7 +238,6 @@ height:6vh;
   border-bottom:solid 1px #d3d3d3;
   padding-bottom:2vh;
 }
-
 
 .dtailed-info
 {
@@ -269,7 +262,6 @@ height:6vh;
   justify-content: space-between;
 }
 
-
 .button{
   font-size:14px;
   border-color: $white;
@@ -277,6 +269,7 @@ height:6vh;
   width:auto;
   height:6vh;
     }
+
   .date
   {
     justify-content: space-between;
@@ -291,6 +284,7 @@ height:6vh;
     text-decoration: none;
     transition: background-color .3s;
   }
+
   a.active
   {
     background-color:$red;
@@ -303,6 +297,7 @@ height:6vh;
 {
   display:none;
 }
+
 .lower-ftr
 { flex-direction:column;
  p
@@ -314,7 +309,6 @@ height:6vh;
    padding-left:43%;
  }
 }
-
 
 .navigation
 {
@@ -342,6 +336,7 @@ a{
   padding-right:3vw;
   padding-left:3vw;
 }
+
 .crgt
 { padding-left:3vw;
   border-top:solid 1px  #d3d3d3;
@@ -350,6 +345,7 @@ a{
 .section-2{
   position:relative;
 }
+
 .aside{
  display:none;
 }
@@ -376,6 +372,7 @@ a{
     grid-template-columns: repeat(4,minmax(180px,1fr));
   }
 }
+
 .lower-ftr{
   flex-direction: row;
   justify-content:space-between;
@@ -400,15 +397,18 @@ a{
   }
 
 }
+
 .ftr-right
 {flex:40%
 
 }
+
 .ftr-right h6
 {
  padding-bottom:2vh;
   border-bottom:solid 1px $red;
 }
+
 .ftr-left
 {flex:60%}
 
@@ -458,6 +458,7 @@ a{
 {
   display:none;
 }
+
 .upper-ftr
 { display:block;
   display:flex;

@@ -4,15 +4,6 @@
   padding: 0;
 }
 
-body .carousel-indicators li {
-  background-color: red;
-}
-
-body .carousel-control-prev-icon,
-body .carousel-control-next-icon {
-  background-color: red;
-}
-
 .img {
   object-fit: cover;
 }
