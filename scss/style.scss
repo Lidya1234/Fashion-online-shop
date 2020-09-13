@@ -246,37 +246,31 @@ main
   flex-direction: column;
 }
 
-.info-border 
-{
+.info-border {
   border-bottom: solid 1px #d3d3d3;
   padding-bottom: 2vh;
 }
 
-.dtailed-info 
-{
+.dtailed-info {
   justify-content: space-between;
 }
 
-.info-img 
-{
+.info-img {
   height: 22vh;
   width: 22vw;
 }
 
-.information 
-{
+.information {
   flex-direction: column;
   padding-right: 3vw;
   padding-left: 3vw;
 }
 
-.info-head 
-{
+.info-head {
   justify-content: space-between;
 }
 
-.button 
-{
+.button {
   font-size: 14px;
   border-color: $white;
   background-color: $red;
@@ -284,16 +278,14 @@ main
   height: 6vh;
 }
 
-.date 
-{
+.date {
   justify-content: space-between;
 }
 
 .pagination 
 {
   padding-left: 35%;
-  a 
-  {
+  a {
     color: black;
     padding-left: 35%;
     padding: 1vh 1vw;
@@ -301,45 +293,40 @@ main
     transition: background-color .3s;
   }
 
-  a.active 
-  {
+  a.active {
     background-color: $red;
     color: white;
   }
 }
 
-.upper-ftr
- {
+.upper-ftr {
   display: none;
 }
 
 .lower-ftr
  {
   flex-direction: column;
-  p
-   {
+  p {
     padding-left: 20%;
   }
-  div
-   {
+  div {
     padding-left: 43%;
   }
 }
 
 .navigation
- {
-  h6
-   {
+{
+  h6 {
     border-bottom: solid 1px $red;
   }
 }
 
 .l-ftr-links 
 {
-  li 
-  {
+  li {
     list-style: none;
   }
+
   a {
     color: $dark;
     text-decoration: none;
@@ -364,8 +351,7 @@ main
 
 .ftr-form {
   padding-top: 5vh;
-  
-  button {
+   button {
     width: 5vw;
     height: 4vh;
     border: none;
@@ -378,6 +364,7 @@ main
   .section-2 {
     justify-content: space-between;
     flex-direction: column;
+
     div {
       grid-template-columns: repeat(4, minmax(180px, 1fr));
     }
@@ -412,8 +399,8 @@ main
     h6 {
       padding-bottom: 2vh;
       border-bottom: solid 1px $red;
+    }
   }
- }
 
   .ftr-left {
     flex: 60%;
