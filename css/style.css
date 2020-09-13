@@ -24,7 +24,7 @@ main {
 }
 
 .gray {
-  color: #888888;
+  color: #888;
 }
 
 .dark {
@@ -33,7 +33,7 @@ main {
 }
 
 .white {
-  color: #ffffff;
+  color: #fff;
 }
 
 .flex {
@@ -110,7 +110,7 @@ main {
 }
 .buttons button {
   font-size: 14px;
-  border-color: #ffffff;
+  border-color: #fff;
   background-color: #d35266;
   width: auto;
   height: 6vh;
@@ -156,7 +156,7 @@ main {
 
 .grid-items {
   flex-direction: column;
-  background-color: #ffffff;
+  background-color: #fff;
   padding-left: 1%;
   padding-right: 1%;
   border: 1px solid #d3d3d3;
@@ -222,7 +222,7 @@ main {
 
 .button {
   font-size: 14px;
-  border-color: #ffffff;
+  border-color: #fff;
   background-color: #d35266;
   width: auto;
   height: 6vh;
