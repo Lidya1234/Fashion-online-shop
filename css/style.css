@@ -116,8 +116,9 @@ main {
 }
 
 .main-img {
-  height: 350px;
-  width: 500px;
+  height: 300px;
+  width: 400px;
+  margin-right: 5%;
 }
 
 .image {
@@ -357,7 +358,7 @@ main {
     box-shadow: 0 0 20px black;
   }
   .aside h6 {
-    font-size: 1vw;
+    font-size: 20px;
   }
 
   .small-side {
@@ -366,7 +367,7 @@ main {
     flex: 25%;
   }
   .small-side h6 {
-    font-size: 1vw;
+    font-size: 20px;
   }
 
   .info-border-right {
