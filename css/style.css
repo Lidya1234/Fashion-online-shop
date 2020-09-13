@@ -4,6 +4,17 @@
   padding: 0;
 }
 
+.img {
+  object-fit: cover;
+}
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+}
+
 main {
   background-color: #f9f9f9;
 }
@@ -79,6 +90,7 @@ main {
 .text input {
   height: 8vh;
   width: 20vw;
+  color: #383838;
 }
 .text select {
   width: 14vw;
@@ -119,11 +131,6 @@ main {
   height: 300px;
   width: 400px;
   margin-right: 5%;
-}
-
-.image {
-  height: 350px;
-  width: 330px;
 }
 
 .section-2 {
@@ -173,6 +180,7 @@ main {
 
 /*results */
 .res2 {
+  margin-top: 6%;
   margin-right: 3vw;
 }
 

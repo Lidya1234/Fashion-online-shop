@@ -10,6 +10,18 @@ $white: #ffffff;
 
 }
 
+.img
+{
+  object-fit: cover;
+}
+
+.navbar
+{ width:100%;
+  position:fixed;
+  z-index:1;
+  top:0;
+}
+
 main{
 background-color:#f9f9f9;
 }
@@ -95,6 +107,7 @@ h6
   {
     height:8vh;
     width: 20vw;
+    color:$dark;
   }
   select 
   { width:14vw;
@@ -148,11 +161,7 @@ height:6vh;
 }
 
 
-.image
-{
-  height:350px;
-  width:330px;
-}
+
 
 .section-2
 {
@@ -207,7 +216,7 @@ height:6vh;
 }
 /*results */
 .res2
-{
+{ margin-top:6%;
   margin-right:3vw;
 }
 .small-side
