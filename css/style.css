@@ -8,6 +8,12 @@
   object-fit: cover;
 }
 
+.image
+{
+  height:350px;
+  width:330px;
+}
+
 .navbar {
   width: 100%;
   position: fixed;
@@ -61,6 +67,7 @@ main {
 }
 
 .post-btn {
+  padding-top:1px;
   height: 5vh;
   width: auto;
   background-color: #d35266;
@@ -244,9 +251,6 @@ main {
 
 .pagination a {
   color: black;
-  padding-left: 35%;
-  padding-top: 1vh;
-  padding-right: 1vw;
   text-decoration: none;
   transition: background-color 0.3s;
 }
