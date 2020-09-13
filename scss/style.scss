@@ -201,24 +201,35 @@ height:6vh;
   justify-content:space-between;
 }
 
-footer
+.search-ftr
 {
   margin:2vh 5vw 2vh 6vw;
-  justify-content: space-evenly;
+ 
   p 
   {width:50%;
+    
   }
-  ul li
-  {
-    text-decoration:none;
-  }
+
 }
+.ftr-right
+{flex:40%
+
+}
+.ftr-right h6
+{
+ padding-bottom:2vh;
+  border-bottom:solid 1px $red;
+}
+.ftr-left
+{flex:60%}
 
 .categories
-{
-  h6
-  {
-    border-bottom:solid 1px $red;
+{ justify-content: space-evenly;
+
+
+  li
+  { list-style: none;
+    text-decoration:none;
   }
 }
 /*results */
@@ -288,6 +299,57 @@ footer
     justify-content: space-between;
   }
 
+  .pagination 
+  {  padding-left:35%;
+    a {
+    color: black;
+   padding-left:35%;
+    padding: 1vh 1vw;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+  a.active
+  {
+    background-color:$red;
+    color:white;
+
+  }
+}
+
+.upper-ftr
+{
+  justify-content:space-between;
+}
+.lower-ftr
+{ flex-direction:column;
+ 
+  p
+  {
+  
+  }
+}
+
+.l-ftr-links
+{
+  li
+  {
+    list-style:none;
+  }
+a{
+  color: $dark;
+  text-decoration:none
+}
+}
+
+.res-ftr
+{ margin-top:3vh;
+  border-top:solid 1px #d3d3d3;
+}
+.crgt
+{ padding-left:3vw;
+  border-top:solid 1px  #d3d3d3;
+}
+
 @media screen and (min-width:768px)
 {
   .section-2
@@ -298,6 +360,10 @@ footer
   {
     grid-template-columns: repeat(4,minmax(180px,1fr));
   }
+}
+.lower-ftr{
+  flex-direction: row;
+  justify-content:space-between;
 }
 }
 

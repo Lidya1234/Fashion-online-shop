@@ -166,19 +166,32 @@ main {
   justify-content: space-between;
 }
 
-footer {
+.search-ftr {
   margin: 2vh 5vw 2vh 6vw;
-  justify-content: space-evenly;
 }
-footer p {
+.search-ftr p {
   width: 50%;
 }
-footer ul li {
-  text-decoration: none;
+
+.ftr-right {
+  flex: 40%;
 }
 
-.categories h6 {
+.ftr-right h6 {
+  padding-bottom: 2vh;
   border-bottom: solid 1px #d35266;
+}
+
+.ftr-left {
+  flex: 60%;
+}
+
+.categories {
+  justify-content: space-evenly;
+}
+.categories li {
+  list-style: none;
+  text-decoration: none;
 }
 
 /*results */
@@ -240,6 +253,46 @@ footer ul li {
   justify-content: space-between;
 }
 
+.pagination {
+  padding-left: 35%;
+}
+.pagination a {
+  color: black;
+  padding-left: 35%;
+  padding: 1vh 1vw;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+.pagination a.active {
+  background-color: #d35266;
+  color: white;
+}
+
+.upper-ftr {
+  justify-content: space-between;
+}
+
+.lower-ftr {
+  flex-direction: column;
+}
+.l-ftr-links li {
+  list-style: none;
+}
+.l-ftr-links a {
+  color: #383838;
+  text-decoration: none;
+}
+
+.res-ftr {
+  margin-top: 3vh;
+  border-top: solid 1px #d3d3d3;
+}
+
+.crgt {
+  padding-left: 3vw;
+  border-top: solid 1px #d3d3d3;
+}
+
 @media screen and (min-width: 768px) {
   .section-2 {
     justify-content: space-between;
@@ -247,6 +300,11 @@ footer ul li {
   }
   .section-2 div {
     grid-template-columns: repeat(4, minmax(180px, 1fr));
+  }
+
+  .lower-ftr {
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
 
