@@ -1,6 +1,6 @@
 # Fashion-online-shop
 
-capstone project of HTML and css
+capstone project of HTML and CSS
 
 <img src="images/screenshot.jpg" alt="Fashion-online shop">
 
