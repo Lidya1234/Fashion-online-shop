@@ -108,7 +108,11 @@ main {
 }
 
 .postad {
+  padding: 1px 1px 1px 1px;
   border: none;
+  background-color: #d35266;
+  margin-top:1px;
+  font-size: 50%;
 }
 
 .heading {
