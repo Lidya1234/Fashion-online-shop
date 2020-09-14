@@ -2,7 +2,7 @@
 
 capstone project of HTML and CSS
 
-<img src="images/screenshot.jpg" alt="Fashion-online shop">
+<img src="images/screenshot.png" alt="Fashion-online shop">
 
 This is a project to demonstrate the existing knowledge of HTML and CSS. It is a solo project which recreates a responsive website of Fashion online shop.
 
@@ -30,8 +30,9 @@ Prerequisites Text editor,Github profile and Git.
 - Linkedin: [Lidya-linkedin-link](https://www.linkedin.com/in/lidya-ghebreigziabher-4a94391aa/)
 
 
+## 🤝 Contributing
 
-🤝 Contributing Contributions, issues and feature requests are welcome!
+ Contributions, issues and feature requests are welcome!
 
 Feel free to check the issues page.
 

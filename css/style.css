@@ -93,19 +93,24 @@ main {
 }
 
 .post-btn {
-  padding-top: 1px;
+  padding: 2px 5px 2px 5px;
   height: 5vh;
   width: auto;
   background-color: #d35266;
-  border: none;
+  
+}
+
+.postad {
+  border:none;
 }
 
 .heading {
+ 
   background-color: #d35266;
 }
 
 .text {
-  padding-top: 5%;
+  padding-top: 15vh;
 }
 
 .text h1 {
@@ -139,7 +144,8 @@ main {
   border: none;
   width: 7vw;
   font-size: 20px;
-  padding-top: 1vh;
+ 
+  padding:1px 1px;
 }
 
 .buttons {
@@ -188,7 +194,7 @@ main {
 }
 
 .accessories {
-  margin-top: 10vh;
+  margin-top: 17vh;
   border-bottom: 1px solid #d3d3d3;
 }
 
