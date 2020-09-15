@@ -116,7 +116,6 @@ main {
 
 .heading {
   background-color: #d35266;
-
 }
 
 .text {
@@ -138,7 +137,8 @@ main {
   font-size: 0;
 }
 
-.text input, select {
+.text input, 
+select {
   height: 52px;
   width: 180px;
   color: #383838;
@@ -238,7 +238,7 @@ main {
 .large-side {
   flex: 75%;
   flex-direction: column;
-  padding-top:20%;
+  padding-top: 20%;
 }
 
 .info-border {
