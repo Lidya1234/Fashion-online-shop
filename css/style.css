@@ -41,7 +41,7 @@ a {
 }
 
 .navbar a {
-  margin-right: 3vw;
+  margin-right: 2vw;
 }
 
 .pagination a {
@@ -116,10 +116,11 @@ main {
 
 .heading {
   background-color: #d35266;
+
 }
 
 .text {
-  padding-top: 15vh;
+  padding-top: 10%;
 }
 
 .text h1 {
@@ -132,26 +133,21 @@ main {
 
 .text form {
   margin-top: 2%;
-  padding-left: 15%;
+  padding-left: 20%;
   padding-bottom: 3%;
   font-size: 0;
 }
 
-.text input {
-  height: 8vh;
-  width: 20vw;
+.text input, select {
+  height: 52px;
+  width: 180px;
   color: #383838;
 }
 
-.text select {
-  width: 14vw;
-  height: 8vh;
-}
-
 .text button {
-  height: 8vh;
+  height: 52px;
   border: none;
-  width: 7vw;
+  width: auto;
   font-size: 20px;
   padding: 1px 1px;
 }
@@ -231,7 +227,7 @@ main {
 }
 
 .res2 {
-  margin-top: 6%;
+  margin-top: 9vh;
   margin-right: 3vw;
 }
 
@@ -242,6 +238,7 @@ main {
 .large-side {
   flex: 75%;
   flex-direction: column;
+  padding-top:20%;
 }
 
 .info-border {
