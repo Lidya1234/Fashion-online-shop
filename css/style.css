@@ -137,7 +137,8 @@ main {
   font-size: 0;
 }
 
-.text input, 
+.text input,
+
 select {
   height: 52px;
   width: 180px;
